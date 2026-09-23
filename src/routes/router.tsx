@@ -1,4 +1,4 @@
-import { createBrowserRouter } from 'react-router-dom'
+﻿import { createBrowserRouter } from 'react-router-dom'
 import { MainLayout } from '../components/templates'
 import { paths } from './paths'
 
@@ -20,4 +20,5 @@ export const router = createBrowserRouter([
       { path: '*', lazy: () => import('../pages/NotFound') },
     ],
   },
-])
+], { basename: '/caderno-digital-praticas-docentes-EI-AEH' })
+
