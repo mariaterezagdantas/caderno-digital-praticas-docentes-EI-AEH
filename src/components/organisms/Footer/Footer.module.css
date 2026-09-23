@@ -1,0 +1,18 @@
+.footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
+  padding-block: var(--space-8);
+}
+
+.content {
+  display: grid;
+  gap: var(--space-6);
+  padding-block-start: var(--space-8);
+}
+
+@media (min-width: 48rem) {
+  .content {
+    align-items: end;
+    grid-template-columns: 1fr auto;
+  }
+}

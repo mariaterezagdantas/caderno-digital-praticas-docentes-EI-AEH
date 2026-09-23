@@ -1,0 +1,35 @@
+.brand {
+  align-items: center;
+  color: var(--color-text);
+  display: inline-flex;
+  flex: none;
+  gap: var(--space-3);
+  text-decoration: none;
+}
+
+.mark {
+  align-items: center;
+  background: var(--brand-mark-bg);
+  border: var(--border-width-thin) solid var(--brand-mark-border);
+  border-radius: var(--radius-md);
+  color: var(--brand-mark-text);
+  display: inline-flex;
+  inline-size: var(--control-height-md);
+  justify-content: center;
+  min-block-size: var(--control-height-md);
+}
+
+.copy {
+  display: grid;
+  line-height: var(--line-height-tight);
+}
+
+.title {
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-tight);
+}
+
+.subtitle {
+  line-height: var(--line-height-tight);
+}

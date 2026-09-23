@@ -1,0 +1,3 @@
+.frame { display: grid; align-items: center; justify-items: center; min-width: 0; margin: 0; }
+.artwork { display: block; inline-size: min(100%, 33rem); block-size: auto; }
+@media (max-width: 47.99rem) { .artwork { max-inline-size: 26rem; } }

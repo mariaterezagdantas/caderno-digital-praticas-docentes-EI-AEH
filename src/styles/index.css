@@ -1,0 +1,6 @@
+@import '../theme/index.css';
+@import './fonts.css';
+@import './reset.css';
+@import './globals.css';
+@import './accessibility.css';
+@import './animations.css';

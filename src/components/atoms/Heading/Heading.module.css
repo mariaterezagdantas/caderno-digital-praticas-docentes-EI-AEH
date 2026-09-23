@@ -1,0 +1,29 @@
+.heading {
+  color: var(--color-text-strong);
+  font-family: var(--font-family-display);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: var(--letter-spacing-tight);
+  line-height: var(--line-height-heading);
+  text-wrap: balance;
+}
+
+.display {
+  font-size: var(--font-size-4xl);
+  line-height: var(--line-height-tight);
+}
+
+.xl {
+  font-size: var(--font-size-3xl);
+}
+
+.lg {
+  font-size: var(--font-size-2xl);
+}
+
+.md {
+  font-size: var(--font-size-xl);
+}
+
+.sm {
+  font-size: var(--font-size-lg);
+}

@@ -1,0 +1,118 @@
+:root {
+  /* Color primitives */
+  --color-white: #ffffff;
+  --color-black: #1f2427;
+  --color-sage-50: #f5f8f6;
+  --color-sage-100: #e7efe9;
+  --color-sage-300: #c8d9cc;
+  --color-sage-500: #afc8b5;
+  --color-sage-600: #7d9e85;
+  --color-sage-700: #526d59;
+  --color-mist-100: #f1f6fa;
+  --color-mist-200: #d9e6f2;
+  --color-mist-600: #68839c;
+  --color-beige-50: #fcfbf9;
+  --color-beige-100: #f8f6f2;
+  --color-beige-300: #e9e3da;
+  --color-terracotta-100: #f7ece6;
+  --color-terracotta-300: #d8b09a;
+  --color-terracotta-600: #9b6952;
+  --color-neutral-50: #f7f8f8;
+  --color-neutral-100: #eef0f1;
+  --color-neutral-200: #dce0e2;
+  --color-neutral-400: #8b9398;
+  --color-neutral-600: #626a70;
+  --color-neutral-700: #4e555b;
+  --color-neutral-800: #363c40;
+  --color-neutral-900: #24292c;
+  --color-feedback-success: #3f7450;
+  --color-feedback-danger: #a34444;
+  --color-focus-ring: #315f89;
+  --color-overlay: rgb(36 41 44 / 48%);
+
+  /* Font families */
+  --font-family-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-family-body: 'Nunito', 'Segoe UI', Arial, sans-serif;
+
+  /* Font weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Fluid type scale */
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: clamp(1.0625rem, 1rem + 0.2vw, 1.1875rem);
+  --font-size-xl: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+  --font-size-2xl: clamp(1.5rem, 1.25rem + 0.9vw, 2rem);
+  --font-size-3xl: clamp(2rem, 1.55rem + 1.6vw, 3rem);
+  --font-size-4xl: clamp(2.625rem, 1.8rem + 3vw, 4.75rem);
+  --line-height-tight: 1.08;
+  --line-height-heading: 1.18;
+  --line-height-body: 1.65;
+  --letter-spacing-tight: -0.02em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.08em;
+
+  /* Spacing */
+  --space-0: 0;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* Layout */
+  --container-sm: 40rem;
+  --container-md: 56rem;
+  --container-lg: 72rem;
+  --container-xl: 80rem;
+  --container-gutter: clamp(var(--space-4), 3vw, var(--space-8));
+  --content-measure: 68ch;
+  --control-height-sm: 2.5rem;
+  --control-height-md: 2.875rem;
+  --control-height-lg: 3.25rem;
+  --icon-size-sm: 1rem;
+  --icon-size-md: 1.25rem;
+  --icon-size-lg: 1.5rem;
+
+  /* Borders and radii */
+  --border-width-thin: 0.0625rem;
+  --border-width-medium: 0.125rem;
+  --radius-sm: 0.5rem;
+  --radius-md: 0.875rem;
+  --radius-lg: 1.25rem;
+  --radius-xl: 1.75rem;
+  --radius-pill: 999rem;
+
+  /* Elevation */
+  --shadow-xs: 0 0.0625rem 0.125rem rgb(36 41 44 / 5%);
+  --shadow-sm: 0 0.375rem 1.25rem rgb(36 41 44 / 7%);
+  --shadow-md: 0 1rem 2.5rem rgb(36 41 44 / 10%);
+  --shadow-focus: 0 0 0 0.1875rem rgb(49 95 137 / 24%);
+
+  /* Motion */
+  --duration-fast: 140ms;
+  --duration-normal: 220ms;
+  --duration-slow: 360ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+  /* Layers */
+  --z-base: 0;
+  --z-raised: 10;
+  --z-sticky: 100;
+  --z-overlay: 200;
+  --z-modal: 300;
+  --z-toast: 400;
+}

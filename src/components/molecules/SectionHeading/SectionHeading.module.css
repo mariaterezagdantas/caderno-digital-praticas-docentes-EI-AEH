@@ -1,0 +1,14 @@
+.heading {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.centered {
+  justify-items: center;
+  margin-inline: auto;
+  text-align: center;
+}
+
+.description {
+  max-inline-size: var(--content-measure);
+}

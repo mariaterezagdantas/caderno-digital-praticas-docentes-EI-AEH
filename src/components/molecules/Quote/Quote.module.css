@@ -1,0 +1,20 @@
+.quote {
+  border-inline-start: var(--border-width-medium) solid var(--color-terracotta-300);
+  color: var(--color-accent);
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-4) var(--space-6);
+}
+
+.text {
+  color: var(--color-text-strong);
+  font-family: var(--font-family-display);
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-heading);
+}
+
+.cite {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  font-style: normal;
+}

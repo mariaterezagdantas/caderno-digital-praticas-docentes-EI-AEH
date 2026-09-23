@@ -1,0 +1,22 @@
+.header {
+  background: linear-gradient(180deg, var(--color-background-subtle), var(--color-background));
+  border-block-end: var(--border-width-thin) solid var(--color-border-subtle);
+  padding-block: var(--space-6) var(--space-12);
+}
+
+.copy {
+  align-items: start;
+  display: grid;
+  gap: var(--space-4);
+  margin-block-start: var(--space-10);
+}
+
+.description {
+  max-inline-size: var(--content-measure);
+}
+
+@media (min-width: 48rem) {
+  .header {
+    padding-block-end: var(--space-16);
+  }
+}

@@ -1,0 +1,21 @@
+.container {
+  inline-size: 100%;
+  margin-inline: auto;
+  padding-inline: var(--container-gutter);
+}
+
+.sm {
+  max-inline-size: var(--container-sm);
+}
+
+.md {
+  max-inline-size: var(--container-md);
+}
+
+.lg {
+  max-inline-size: var(--container-lg);
+}
+
+.xl {
+  max-inline-size: var(--container-xl);
+}

@@ -1,0 +1,89 @@
+.button {
+  align-items: center;
+  border: var(--border-width-thin) solid transparent;
+  border-radius: var(--button-radius);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: var(--font-family-body);
+  font-weight: var(--font-weight-bold);
+  gap: var(--button-gap);
+  justify-content: center;
+  line-height: var(--line-height-tight);
+  text-decoration: none;
+  transition:
+    background-color var(--duration-fast) var(--ease-standard),
+    border-color var(--duration-fast) var(--ease-standard),
+    box-shadow var(--duration-fast) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-standard);
+}
+
+.button:hover:not(:disabled) {
+  box-shadow: var(--button-shadow);
+  transform: translateY(calc(var(--space-1) * -0.5));
+}
+
+.button:active:not(:disabled) {
+  box-shadow: none;
+  transform: translateY(var(--space-0));
+}
+
+.button:disabled {
+  cursor: not-allowed;
+  opacity: var(--disabled-opacity);
+}
+
+.primary {
+  background: var(--button-primary-bg);
+  color: var(--button-primary-text);
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--button-primary-bg-hover);
+}
+
+.secondary {
+  background: var(--button-secondary-bg);
+  border-color: var(--button-border);
+  color: var(--button-secondary-text);
+}
+
+.secondary:hover:not(:disabled) {
+  background: var(--button-secondary-bg-hover);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--button-ghost-text);
+}
+
+.ghost:hover:not(:disabled) {
+  background: var(--button-ghost-bg-hover);
+}
+
+.sm {
+  font-size: var(--font-size-sm);
+  min-block-size: var(--control-height-sm);
+  padding-inline: var(--button-padding-inline-sm);
+}
+
+.md {
+  font-size: var(--font-size-md);
+  min-block-size: var(--control-height-md);
+  padding-inline: var(--button-padding-inline-md);
+}
+
+.lg {
+  font-size: var(--font-size-lg);
+  min-block-size: var(--control-height-lg);
+  padding-inline: var(--button-padding-inline-lg);
+}
+
+.fullWidth {
+  inline-size: 100%;
+}
+
+.icon {
+  align-items: center;
+  display: inline-flex;
+  flex: none;
+}

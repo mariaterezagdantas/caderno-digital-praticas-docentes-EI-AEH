@@ -1,0 +1,35 @@
+.text {
+  font-family: var(--font-family-body);
+  line-height: var(--line-height-body);
+}
+
+.body {
+  font-size: var(--font-size-md);
+}
+
+.lead {
+  font-size: var(--font-size-lg);
+}
+
+.small {
+  font-size: var(--font-size-sm);
+}
+
+.caption {
+  font-size: var(--font-size-xs);
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+}
+
+.default {
+  color: var(--color-text);
+}
+
+.muted {
+  color: var(--color-text-muted);
+}
+
+.strong {
+  color: var(--color-text-strong);
+  font-weight: var(--font-weight-bold);
+}

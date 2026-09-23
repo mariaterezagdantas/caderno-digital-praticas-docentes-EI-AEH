@@ -1,0 +1,56 @@
+.content {
+  display: grid;
+  gap: var(--space-16);
+}
+
+.section {
+  display: grid;
+  gap: var(--space-6);
+  scroll-margin-block-start: calc(var(--space-24) + var(--space-8));
+}
+
+.section + .section {
+  border-block-start: var(--border-width-thin) solid var(--color-border-subtle);
+  padding-block-start: var(--space-12);
+}
+
+.sectionHeading {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.sectionNumber {
+  color: var(--color-primary);
+  font-family: var(--font-family-body);
+  font-size: var(--font-size-sm);
+  letter-spacing: var(--letter-spacing-wide);
+  margin-inline-end: var(--space-3);
+  vertical-align: middle;
+}
+
+.blocks {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.list {
+  display: grid;
+  gap: var(--space-3);
+  padding-inline-start: var(--space-6);
+}
+
+.list li::marker {
+  color: var(--color-primary);
+}
+
+.resourceGrid,
+.downloads {
+  display: grid;
+  gap: var(--space-4);
+}
+
+@media (min-width: 40rem) {
+  .resourceGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

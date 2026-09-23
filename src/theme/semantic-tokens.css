@@ -1,0 +1,24 @@
+:root {
+  --color-background: var(--color-white);
+  --color-background-subtle: var(--color-beige-100);
+  --color-surface: var(--color-white);
+  --color-surface-soft: var(--color-sage-50);
+  --color-surface-accent: var(--color-mist-100);
+  --color-text: var(--color-neutral-800);
+  --color-text-strong: var(--color-neutral-900);
+  --color-text-muted: var(--color-neutral-600);
+  --color-text-inverse: var(--color-white);
+  --color-primary: var(--color-sage-700);
+  --color-primary-hover: var(--color-sage-600);
+  --color-primary-soft: var(--color-sage-100);
+  --color-secondary: var(--color-mist-600);
+  --color-accent: var(--color-terracotta-600);
+  --color-accent-soft: var(--color-terracotta-100);
+  --color-border: var(--color-neutral-200);
+  --color-border-subtle: var(--color-neutral-100);
+  --color-focus: var(--color-focus-ring);
+  --color-success: var(--color-feedback-success);
+  --color-danger: var(--color-feedback-danger);
+  --color-selection: var(--color-sage-300);
+  --color-selection-text: var(--color-neutral-900);
+}

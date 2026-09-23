@@ -1,0 +1,15 @@
+.section { padding-block: clamp(2.5rem, 6vw, 5rem); }
+.introduction { display: grid; gap: 1.5rem; }
+.heading { display: grid; gap: .85rem; }
+.heading h2 { max-inline-size: 24ch; }
+.eyebrow { color: var(--color-sage-700); font-weight: 700; }
+.description { max-inline-size: 55ch; line-height: 1.8; }
+.grid { display: grid; gap: 1.75rem; margin-block-start: 2.5rem; }
+.item { display: grid; gap: .75rem; border-top: 1px solid var(--color-beige-300); padding-top: 1.25rem; }
+.item h3 { font-family: var(--font-family-body); font-size: 1rem; }
+.item p { font-size: .9375rem; line-height: 1.8; }
+.icon { color: var(--color-sage-700); }
+@media (min-width: 48rem) {
+  .introduction { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); align-items: end; gap: 3rem; }
+  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2rem; }
+}

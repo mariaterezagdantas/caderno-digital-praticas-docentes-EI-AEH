@@ -1,0 +1,22 @@
+.link {
+  border-radius: var(--radius-sm);
+  color: var(--navigation-text);
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  padding: var(--space-2) var(--space-3);
+  text-decoration: none;
+  transition:
+    background-color var(--duration-fast) var(--ease-standard),
+    color var(--duration-fast) var(--ease-standard);
+}
+
+.link:hover {
+  background: var(--navigation-bg-hover);
+  color: var(--navigation-text-active);
+}
+
+.active {
+  background: var(--navigation-bg-active);
+  color: var(--navigation-text-active);
+}

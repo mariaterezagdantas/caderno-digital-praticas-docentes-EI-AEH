@@ -1,0 +1,77 @@
+.card {
+  background: var(--color-surface);
+  border: var(--border-width-thin) solid var(--color-border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xs);
+  min-block-size: 100%;
+  overflow: hidden;
+  transition:
+    border-color var(--duration-normal) var(--ease-standard),
+    box-shadow var(--duration-normal) var(--ease-standard),
+    transform var(--duration-normal) var(--ease-emphasized);
+}
+
+.card:hover {
+  border-color: var(--card-accent);
+  box-shadow: var(--shadow-md);
+  transform: translateY(calc(var(--space-1) * -1));
+}
+
+.link {
+  color: inherit;
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: auto 1fr auto;
+  min-block-size: 100%;
+  padding: var(--space-6);
+  text-decoration: none;
+}
+
+.iconBox {
+  align-items: center;
+  background: var(--card-soft);
+  border-radius: var(--radius-md);
+  color: var(--card-strong);
+  display: inline-flex;
+  inline-size: var(--control-height-lg);
+  justify-content: center;
+  min-block-size: var(--control-height-lg);
+}
+
+.copy {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.arrow {
+  color: var(--card-strong);
+  transition: transform var(--duration-fast) var(--ease-standard);
+}
+
+.card:hover .arrow {
+  transform: translate(var(--space-1), calc(var(--space-1) * -1));
+}
+
+.sage {
+  --card-accent: var(--color-sage-500);
+  --card-soft: var(--color-surface-soft);
+  --card-strong: var(--color-primary);
+}
+
+.mist {
+  --card-accent: var(--color-mist-200);
+  --card-soft: var(--color-surface-accent);
+  --card-strong: var(--color-secondary);
+}
+
+.terracotta {
+  --card-accent: var(--color-terracotta-300);
+  --card-soft: var(--color-accent-soft);
+  --card-strong: var(--color-accent);
+}
+
+.beige {
+  --card-accent: var(--color-beige-300);
+  --card-soft: var(--color-background-subtle);
+  --card-strong: var(--color-text-muted);
+}

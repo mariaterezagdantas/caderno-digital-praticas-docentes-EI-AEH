@@ -1,0 +1,16 @@
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+  border-radius: var(--radius-sm);
+  outline: var(--border-width-medium) solid var(--color-focus);
+  outline-offset: var(--space-1);
+  box-shadow: var(--focus-shadow);
+}
+
+:where(a, button, input, select, textarea, [tabindex]):focus:not(:focus-visible) {
+  outline: none;
+}
+
+@media (forced-colors: active) {
+  :where(a, button, input, select, textarea, [tabindex]):focus-visible {
+    outline: var(--border-width-medium) solid CanvasText;
+  }
+}

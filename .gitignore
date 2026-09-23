@@ -1,0 +1,43 @@
+node_modules
+dist
+*.local
+*.log
+.DS_Store
+Thumbs.db
+.npm-cache
+tmp/registros-qa
+
+# Temporários, caches e ferramentas
+/tmp/
+/.vercel/
+.cache/
+.vite/
+coverage/
+*.tsbuildinfo
+*.tmp
+*.temp
+*.bak
+*.orig
+*~
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Materiais de pesquisa existentes
+/assuntos realcionados/
+/teses e dissertações/
+/cto.2012.018
+
+# Documentos e arquivos compactados na raiz
+/*.pdf
+/*.doc
+/*.docx
+/*.zip
+/*.rar
+/*.7z

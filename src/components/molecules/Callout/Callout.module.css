@@ -1,0 +1,34 @@
+.callout {
+  --callout-bg: var(--color-surface-soft);
+  --callout-border: var(--color-sage-300);
+  --callout-icon: var(--color-primary);
+  background: var(--callout-bg);
+  border: var(--border-width-thin) solid var(--callout-border);
+  border-radius: var(--radius-lg);
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: auto 1fr;
+  padding: var(--space-5);
+}
+
+.guidance {
+  --callout-bg: var(--color-surface-accent);
+  --callout-border: var(--color-mist-200);
+  --callout-icon: var(--color-secondary);
+}
+
+.note {
+  --callout-bg: var(--color-background-subtle);
+  --callout-border: var(--color-beige-300);
+  --callout-icon: var(--color-text-muted);
+}
+
+.icon {
+  color: var(--callout-icon);
+  padding-block-start: var(--space-1);
+}
+
+.copy {
+  display: grid;
+  gap: var(--space-2);
+}

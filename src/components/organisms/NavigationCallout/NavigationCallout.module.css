@@ -1,0 +1,9 @@
+.section { padding-block: clamp(2.5rem, 6vw, 4.5rem); }
+.card { display: grid; align-items: start; gap: 1.5rem; padding-left: 1.5rem; border-left: 2px solid var(--color-sage-300); }
+.copy { display: grid; gap: .75rem; }
+.copy h2 { max-inline-size: 30ch; }
+.link { display: inline-flex; align-items: center; justify-self: start; gap: .75rem; min-block-size: 48px; font-size: .9375rem; font-weight: 600; }
+.link svg { flex-shrink: 0; }
+.link:hover { text-decoration-thickness: 2px; }
+.link:focus-visible { outline: 2px solid var(--color-focus-ring); outline-offset: 4px; }
+@media (min-width: 48rem) { .card { grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 2rem; } }

@@ -1,0 +1,19 @@
+.section {
+  animation: fade-in-up var(--duration-normal) var(--ease-emphasized);
+  padding-block: var(--space-16) var(--space-24);
+}
+
+.intro {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.description {
+  max-inline-size: var(--content-measure);
+}
+
+@media (min-width: 48rem) {
+  .section {
+    padding-block-start: var(--space-24);
+  }
+}

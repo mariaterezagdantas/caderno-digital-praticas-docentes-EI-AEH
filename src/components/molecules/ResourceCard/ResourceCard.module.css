@@ -1,0 +1,52 @@
+.card {
+  background: var(--color-surface);
+  border: var(--border-width-thin) solid var(--color-border);
+  border-radius: var(--radius-lg);
+  color: var(--color-text);
+  display: grid;
+  gap: var(--space-5);
+  min-block-size: 100%;
+  padding: var(--space-5);
+  text-decoration: none;
+}
+
+.interactive {
+  transition:
+    border-color var(--duration-fast) var(--ease-standard),
+    box-shadow var(--duration-fast) var(--ease-standard),
+    transform var(--duration-fast) var(--ease-standard);
+}
+
+.interactive:hover {
+  border-color: var(--color-sage-500);
+  box-shadow: var(--shadow-sm);
+  transform: translateY(calc(var(--space-1) * -1));
+}
+
+.unavailable {
+  background: var(--color-background-subtle);
+}
+
+.topline {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  color: var(--color-primary);
+}
+
+.copy {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.access {
+  align-items: center;
+  color: var(--color-primary);
+  display: inline-flex;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-bold);
+  gap: var(--space-2);
+}

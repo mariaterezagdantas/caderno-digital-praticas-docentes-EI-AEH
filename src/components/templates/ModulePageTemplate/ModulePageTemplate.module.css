@@ -1,0 +1,27 @@
+.layout {
+  display: grid;
+  gap: var(--space-10);
+  padding-block: var(--space-12) var(--space-24);
+}
+
+.sidebar {
+  min-inline-size: var(--space-0);
+}
+
+.mainColumn {
+  display: grid;
+  gap: var(--space-12);
+  min-inline-size: var(--space-0);
+}
+
+@media (min-width: 64rem) {
+  .layout {
+    align-items: start;
+    grid-template-columns: minmax(13rem, 0.32fr) minmax(0, 1fr);
+  }
+
+  .sidebar {
+    inset-block-start: calc(var(--space-20) + var(--space-6));
+    position: sticky;
+  }
+}
