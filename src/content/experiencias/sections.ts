@@ -8,9 +8,7 @@ export const experienciasSections: ContentSection[] = [
     blocks: [
       { type: 'callout', tone: 'note', title: 'Sobre esta situação', text: 'Situação hipotética elaborada com finalidade formativa. Não corresponde a relato das professoras participantes nem constitui resultado da pesquisa.' },
       { type: 'paragraph', text: 'Depois de um encontro, uma docente anota que a criança mudou o percurso de uma proposta, combinou os materiais de um modo não previsto e preferiu interromper quando o ambiente se tornou mais movimentado. Ao reler o registro, a docente percebe uma pergunta sobre sua própria mediação e considera conversar com outras docentes.' },
-      { type: 'paragraph', text: 'O registro pode ajudá-la a descrever o que aconteceu, distinguir observações de interpretações e reconhecer decisões que deseja retomar. Para dialogar com o grupo, ela ainda precisará selecionar o que é necessário à reflexão e proteger informações que possam identificar a criança, a família, outros profissionais ou a instituição.' },
-      { type: 'paragraph', text: 'Documentar não cria obrigação de compartilhar. A docente pode registrar para compreender e replanejar, conversar em um espaço profissional protegido ou decidir que a experiência não deve circular. Cada mudança de finalidade ou de público exige uma nova análise dos cuidados envolvidos.' },
-      { type: 'callout', tone: 'highlight', title: 'Documentar não significa publicar', text: 'Uma experiência pode alimentar reflexão e formação sem se tornar conteúdo público. Decidir não compartilhar também pode ser uma escolha ética e profissional legítima.' },
+      {"type":"paragraph","text":"Documentar não obriga a compartilhar. O registro pode apoiar uma reflexão pessoal ou uma conversa profissional protegida. Antes de mudar seu público, selecione o que é necessário e reveja os cuidados com a identificação das pessoas."},
     ],
   },
   {
@@ -18,9 +16,7 @@ export const experienciasSections: ContentSection[] = [
     eyebrow: 'Memória e reflexão',
     title: 'Por que documentar experiências docentes?',
     blocks: [
-      { type: 'paragraph', text: 'Documentar pode tornar mais visíveis as decisões pedagógicas, as perguntas que orientaram um encontro e as mudanças produzidas pela observação. Ao voltar ao que foi registrado, a docente pode reconhecer saberes mobilizados, acompanhar transformações em sua compreensão e encontrar elementos para replanejar.' },
-      { type: 'paragraph', text: 'A documentação também pode preservar dúvidas, interrupções e limites que desapareceriam em uma narrativa centrada apenas no resultado. Quando utilizada em condições adequadas de confidencialidade, pode alimentar estudo coletivo, diálogo profissional e construção de memória sobre o trabalho realizado por uma equipe ou instituição.' },
-      { type: 'paragraph', text: 'Nem toda experiência precisa ser documentada com o mesmo grau de detalhe. Nem toda documentação precisa circular, e nenhuma delas precisa tornar-se pública. A finalidade, o tempo disponível, a relevância pedagógica e as condições éticas ajudam a orientar o que registrar, como elaborar e com quem dialogar.' },
+      {"type":"paragraph","text":"Registrar dúvidas e interrupções permite examinar o percurso, inclusive quando não houve o resultado esperado."},
       { type: 'callout', tone: 'guidance', title: 'Documentar para voltar a pensar', text: 'A documentação não precisa comprovar que uma proposta deu certo. Ela pode preservar uma pergunta, tornar uma decisão examinável e apoiar novas leituras da experiência.' },
     ],
   },
@@ -30,7 +26,7 @@ export const experienciasSections: ContentSection[] = [
     title: 'O que a pesquisa revelou: saberes que se constroem na prática',
     blocks: [
       { type: 'paragraph', text: 'A pesquisa que originou o Caderno Digital evidenciou os saberes docentes construídos na prática cotidiana como uma das categorias de análise. As professoras constroem, mobilizam e transformam saberes no trabalho desenvolvido no Atendimento Educacional Hospitalar, e esses saberes integram a constituição da docência nesse contexto.' },
-      { type: 'paragraph', text: 'Quando uma experiência é retomada para documentação, a docente seleciona acontecimentos, procura compreender suas decisões e elabora o que viveu. A passagem para a narrativa pode tornar visíveis conhecimentos presentes nas relações e nas escolhas pedagógicas. Isso não transforma cada acontecimento em resultado de pesquisa nem autoriza atribuir às participantes situações ou afirmações que não estejam documentadas.' },
+      { type: 'paragraph', text: 'Ao narrar uma experiência, a docente seleciona acontecimentos e examina suas decisões. Essa elaboração pode tornar visíveis saberes da prática, sem transformar o episódio em resultado de pesquisa nem atribuir às participantes afirmações não documentadas.' },
       { type: 'paragraph', text: 'Toda narrativa parte de uma perspectiva situada e, por essa razão, não representa o conjunto de docentes, crianças, instituições ou contextos. O diálogo com estudos, documentos e outras interpretações amplia a compreensão da experiência e oferece fundamentos para uma circulação responsável.' },
       { type: 'callout', tone: 'highlight', title: 'Saberes que podem tornar-se visíveis', text: 'Ao documentar e narrar, a docente elabora a experiência e reconhece saberes construídos na prática. O caráter singular do que viveu permanece visível, sem transformar a narrativa em regra ou modelo profissional.' },
     ],
@@ -40,11 +36,9 @@ export const experienciasSections: ContentSection[] = [
     eyebrow: 'Elaboração narrativa',
     title: 'Da experiência vivida à narrativa profissional',
     blocks: [
-      { type: 'paragraph', text: 'Uma experiência é vivida nas relações entre docente, criança, contexto e outras pessoas. Nenhuma narrativa consegue reproduzi-la integralmente. Escrever envolve selecionar aspectos conforme uma finalidade, situá-los e construir relações entre acontecimentos, decisões e interpretações.' },
-      { type: 'paragraph', text: 'Esse movimento pode ser compreendido como experiência → registro → seleção → contextualização → interpretação → narrativa. Ele não precisa ocorrer de forma linear: a escrita pode levar a docente de volta ao registro, revelar a necessidade de mais contexto ou mostrar que determinada interpretação precisa ser revista.' },
-      { type: 'paragraph', text: 'Uma narrativa profissional procura distinguir o que foi observado daquilo que foi interpretado. Pode apresentar escolhas, dúvidas, limites, interrupções, mudanças de percurso e questões que permaneceram abertas. Não precisa terminar com sucesso, solução ou produto final.' },
+      {"type":"paragraph","text":"Experiência → registro → seleção → contextualização → interpretação → narrativa. Ao escrever, você pode voltar ao registro, buscar contexto ou rever uma interpretação. Não é um percurso linear nem uma reprodução integral do vivido."},
+      {"type":"paragraph","text":"Distinga o observado do interpretado e deixe aparecer escolhas, dúvidas e limites. A narrativa não precisa terminar com sucesso ou produto final."},
       { type: 'paragraph', text: 'Como a experiência não pertence integralmente a uma única voz, a narrativa precisa reconhecer a presença de outras pessoas sem falar por elas, expô-las ou se apropriar de suas falas, imagens e produções. O texto da docente é autoral, mas sua autoria não cria automaticamente o direito de tornar públicos todos os elementos da situação.' },
-      { type: 'callout', tone: 'guidance', title: 'Narrar também é interpretar', text: 'Selecionar uma cena, nomear uma decisão e estabelecer relações entre acontecimentos já produz uma leitura da experiência. Tornar essa construção visível ajuda a evitar que a narrativa seja apresentada como reprodução neutra ou completa do que ocorreu.' },
     ],
   },
   {
@@ -52,7 +46,7 @@ export const experienciasSections: ContentSection[] = [
     eyebrow: 'Distinções necessárias',
     title: 'Registros diferentes, finalidades diferentes',
     blocks: [
-      { type: 'paragraph', text: 'Registros e narrativas podem ter finalidades pedagógicas, formativas, institucionais, clínicas, científicas ou públicas. Reconhecer essas diferenças evita que um material produzido em determinado contexto seja deslocado automaticamente para outro.' },
+      {"type":"paragraph","text":"Antes de escolher o que registrar ou compartilhar, defina a finalidade:"},
       { type: 'list', items: [
         'Registro para estudo profissional: anotação destinada a elaborar perguntas, interpretações e decisões da prática, com circulação protegida conforme sua finalidade.',
         'Documentação pedagógica: seleção e organização interpretativa de registros para acompanhar e tornar processos educativos visíveis aos interlocutores previstos, com finalidade pedagógica e cuidados éticos.',
@@ -62,7 +56,6 @@ export const experienciasSections: ContentSection[] = [
         'Relato de pesquisa: produção vinculada a investigação sistemática, submetida ao enquadramento e às exigências éticas aplicáveis.',
         'Exposição pública: disponibilização para público amplo, que altera a circulação e pode envolver privacidade, autoria, proteção de dados, acessibilidade e responsabilidade institucional.',
       ] },
-      { type: 'paragraph', text: 'Nem todo registro precisa tornar-se documentação pedagógica; nem toda documentação deve transformar-se em relato; e um material destinado ao acompanhamento pedagógico ou institucional não está automaticamente autorizado para exposição pública.' },
       { type: 'callout', tone: 'highlight', title: 'Mudar o público muda a responsabilidade', text: 'Compartilhar em um grupo profissional protegido não equivale a publicar na internet. A ampliação da circulação exige revisar finalidade, necessidade, contexto, proteção das pessoas e responsabilidades institucionais.' },
     ],
   },
@@ -71,11 +64,9 @@ export const experienciasSections: ContentSection[] = [
     eyebrow: 'Contexto e singularidade',
     title: 'Compartilhar sem transformar a experiência em receita',
     blocks: [
-      { type: 'paragraph', text: 'Uma narrativa profissional precisa oferecer contexto suficiente para que as decisões façam sentido: condições do encontro, possibilidades materiais, relações institucionais e questões pedagógicas envolvidas. Contextualizar não significa acrescentar detalhes identificáveis ou informações clínicas, mas evitar que uma ação pareça separada das circunstâncias em que foi construída.' },
-      { type: 'paragraph', text: 'Escolhas, dúvidas, interrupções e limites ajudam a preservar a complexidade da experiência. Um relato não comprova eficácia, não garante que o mesmo resultado ocorrerá novamente e não estabelece procedimento universal. Pode inspirar perguntas e ampliar repertórios sem funcionar como modelo a ser reproduzido.' },
-      { type: 'paragraph', text: 'Também é necessário evitar a narrativa heroica que atribui toda transformação à docente, romantiza condições precárias ou apaga problemas institucionais. Reconhecer autoria docente não significa individualizar responsabilidades que pertencem à rede, à gestão ou às condições de trabalho.' },
-      { type: 'paragraph', text: 'Uma experiência singular não representa todas as crianças nem todas as docentes. Sua contribuição está no que permite compreender, discutir e questionar, não na possibilidade de generalizá-la para outros contextos.' },
-      { type: 'callout', tone: 'guidance', title: 'Relatar não é prescrever', text: 'Um relato situado explicita contexto, escolhas, dúvidas e limites. Não apresenta a experiência como receita, comprovação de eficácia, resultado esperado ou promessa de benefício clínico.' },
+      {"type":"paragraph","text":"Ofereça o contexto pedagógico necessário para compreender as decisões: condições do encontro, materiais, relações e perguntas. Evite detalhes identificáveis ou clínicos que não contribuam para a reflexão."},
+      {"type":"paragraph","text":"Um relato amplia repertórios, mas não comprova eficácia nem estabelece um procedimento universal."},
+      {"type":"paragraph","text":"Evite apresentar a docente como responsável por toda transformação, romantizar a precariedade ou apagar problemas institucionais. A autoria profissional não substitui as responsabilidades da rede e da gestão."},
     ],
   },
   {
@@ -88,7 +79,6 @@ export const experienciasSections: ContentSection[] = [
       { type: 'paragraph', text: 'Fotografias, vídeos, áudios, vozes, falas e produções infantis podem envolver imagem, identidade, autoria, contexto e direitos de outras pessoas. Ter acesso ao material ou autorização para utilizá-lo em uma atividade pedagógica não significa ter permissão para divulgá-lo em outra finalidade ou para um público diferente.' },
       { type: 'paragraph', text: 'Considerar a participação e consultar a criança, de modo compatível com sua idade, com o contexto, com a finalidade e com as orientações institucionais, é um cuidado ético e pedagógico. Isso não constitui, por si só, regra jurídica universal nem substitui as autorizações e análises competentes. Da mesma forma, uma autorização adulta não elimina automaticamente os cuidados com dignidade, melhor interesse, necessidade e efeitos futuros da exposição.' },
       { type: 'paragraph', text: 'Familiares, docentes, profissionais, escolas, hospitais e redes também podem ser identificados ou expostos por detalhes da narrativa. Na circulação digital aberta, conteúdos podem ser copiados, indexados e preservados fora do controle de quem publicou, mesmo depois de eventual retirada da página original.' },
-      { type: 'callout', tone: 'highlight', title: 'Retirar o nome pode não ser suficiente', text: 'A proteção depende do conjunto de informações, da finalidade e do público. Minimizar dados significa perguntar o que é realmente necessário para compreender a reflexão e retirar detalhes que apenas aumentam a possibilidade de identificação ou exposição.' },
       { type: 'callout', tone: 'note', title: 'Autorização não elimina todos os cuidados', text: 'A hipótese jurídica aplicável e os instrumentos necessários não devem ser definidos individualmente pela docente. Mesmo quando houver autorização pertinente, ainda precisam ser considerados privacidade, dignidade, melhor interesse, finalidade e alcance da circulação.' },
     ],
   },
@@ -97,11 +87,9 @@ export const experienciasSections: ContentSection[] = [
     eyebrow: 'Perspectiva e direitos de uso',
     title: 'Autoria, voz docente e construção coletiva de saberes',
     blocks: [
-      { type: 'paragraph', text: 'A docente é autora da narrativa que elabora sobre sua atuação. Preservar sua voz profissional significa permitir que apresente decisões, dúvidas, limites e mudanças de compreensão sem precisar construir uma imagem de desempenho perfeito. Narrar incertezas não equivale a desqualificar o próprio trabalho; pode tornar visível o movimento reflexivo da docência.' },
+      {"type":"paragraph","text":"Preserve sua voz ao narrar decisões, dúvidas e mudanças de compreensão. Mostrar incertezas pode tornar visível a reflexão profissional, sem exigir uma imagem de desempenho perfeito."},
       { type: 'paragraph', text: 'A experiência, entretanto, é relacional. Reconhecer interlocutores e condições que participaram do encontro não autoriza falar em nome de outras pessoas ou expô-las. O reconhecimento da coautoria deve considerar contribuição efetiva à elaboração intelectual ou textual, e não decorre apenas de cargo, supervisão ou autorização administrativa.' },
       { type: 'paragraph', text: 'Textos, fotografias, ilustrações, músicas, materiais pedagógicos e produções infantis podem possuir autores e titulares distintos. Citar a origem não substitui a verificação de licença ou de permissão compatível com o uso pretendido. Autorização de imagem também não equivale automaticamente a cessão de direitos sobre uma produção.' },
-      { type: 'paragraph', text: 'Em grupos formativos, narrativas podem dialogar, divergir e ser revistas. Diferentes leituras ajudam a construir saberes coletivos quando há escuta, respeito, confidencialidade e fundamentação. Uma narrativa individual contribui para a reflexão, mas não representa todas as docentes ou contextos.' },
-      { type: 'callout', tone: 'guidance', title: 'Atribuir não é o mesmo que ter permissão', text: 'Informar autoria e origem é necessário, mas a atribuição, sozinha, não autoriza reprodução, adaptação ou publicação. Titularidade, licença, finalidade e alcance da permissão precisam ser considerados separadamente.' },
     ],
   },
   {
@@ -109,11 +97,9 @@ export const experienciasSections: ContentSection[] = [
     eyebrow: 'Estado atual e responsabilidade',
     title: 'Compartilhamento público exige responsabilidade institucional',
     blocks: [
-      { type: 'callout', tone: 'highlight', title: 'O Caderno Digital ainda não recebe nem publica relatos', text: 'O módulo é exclusivamente formativo. Não existe formulário de envio, canal de submissão, galeria, seleção, armazenamento remoto ou publicação de experiências docentes nesta versão do Caderno Digital.' },
-      { type: 'paragraph', text: 'Qualquer abertura futura exigiria uma instituição formalmente responsável, com finalidade e público definidos, política editorial e de privacidade, critérios pedagógicos, segurança e proteção de dados. Também dependeria das análises ética, jurídica e institucional cabíveis, sem transferir essas decisões para a docente autora.' },
+      {"type":"callout","tone":"highlight","title":"O Caderno Digital ainda não recebe nem publica relatos","text":"Este módulo é formativo. Não há envio, seleção ou publicação pública de relatos. O Meu Espaço de Registros é destinado aos registros pessoais e não funciona como canal de submissão."},
+      {"type":"paragraph","text":"Uma abertura futura dependeria de instituição responsável, finalidade e público definidos, políticas editorial e de privacidade, critérios pedagógicos e proteção de dados. As análises éticas, jurídicas e institucionais cabíveis não podem ser transferidas à docente autora."},
       { type: 'paragraph', text: 'A acessibilidade precisaria integrar a escrita, a estrutura e os formatos desde o início, com linguagem clara, ordem de leitura compreensível, links descritivos e recursos adequados aos conteúdos utilizados. Uma política futura também precisaria prever procedimentos de correção, atualização e retirada.' },
-      { type: 'paragraph', text: 'A docente não deve ser responsabilizada individualmente pelo enquadramento jurídico, pela proteção institucional dos dados, pela definição de política editorial ou pela decisão final de publicação. Sem essas condições previamente estabelecidas, o Caderno Digital permanece como espaço de orientação e reflexão.' },
-      { type: 'callout', tone: 'note', title: 'Publicação não é continuação automática do registro', text: 'Tornar um conteúdo público altera sua finalidade, seu alcance e seus riscos. Uma autorização destinada ao trabalho pedagógico ou à circulação interna não deve ser transportada automaticamente para a internet.' },
     ],
   },
   {
@@ -139,8 +125,7 @@ export const experienciasSections: ContentSection[] = [
         'Reconhecer saberes construídos ou revistos.',
         'Explicitar limites, cuidados de proteção e possíveis continuidades.',
       ] },
-      { type: 'callout', tone: 'guidance', title: 'Um roteiro de reflexão, não de submissão', text: 'O roteiro é opcional, adaptável, não avaliativo e não classificatório. Não é formulário de envio ou instrumento de certificação. Quando a narrativa for preparada para circular fora dos canais institucionais autorizados, devem ser protegidos dados clínicos, imagens e informações que possam identificar crianças, famílias, profissionais ou instituições.' },
-      { type: 'callout', tone: 'highlight', title: 'Documentar é também cuidar do que circula', text: 'Uma experiência pode alimentar reflexão, formação e construção coletiva de saberes sem se tornar modelo, exposição ou publicação. Documentar envolve selecionar, interpretar e distinguir aquilo que pode circular do que precisa ser protegido.' },
+      {"type":"callout","tone":"guidance","title":"Um roteiro de reflexão, não de submissão","text":"Adapte o roteiro à sua escrita. Ele não é formulário de submissão nem instrumento de avaliação. Na circulação fora dos canais autorizados, proteja dados clínicos, imagens e informações que permitam identificar pessoas ou instituições."},
       { type: 'callout', tone: 'note', title: 'Direitos da criança e proteção de dados', text: 'Referências sobre dignidade, privacidade, melhor interesse e tratamento de dados pessoais.' },
       { type: 'resources', items: [
         { id: 'experiencias-lgpd', type: 'document', title: 'Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais', description: 'Dispõe sobre tratamento de dados pessoais, dados sensíveis, pesquisa e dados de crianças e adolescentes.', meta: 'Presidência da República · texto oficial', href: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm' },

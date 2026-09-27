@@ -650,11 +650,10 @@ function itemBlocks(item: CuratedItem, type: ResourceType): ContentBlock[] {
         href: item.href,
       }],
     },
-    { type: 'paragraph', text: `Por que é pertinente ao Caderno: ${item.relevance}` },
-    { type: 'paragraph', text: `Possibilidade de mediação ou reflexão: ${item.mediation}` },
+    { type: 'paragraph', text: `${item.relevance} ${item.mediation}` },
   ]
   if (item.questions?.length) {
-    blocks.push({ type: 'callout', tone: 'guidance', title: `Para conversar — ${item.title}`, text: item.questions.join(' ') })
+    blocks.push({ type: 'callout', tone: 'guidance', title: 'Para conversar', text: item.questions.join(' ') })
   }
   if (item.experience) {
     blocks.push({ type: 'paragraph', text: `Experiência relacionada: ${item.experience}` })

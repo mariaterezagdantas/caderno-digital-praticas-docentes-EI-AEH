@@ -7,23 +7,11 @@ export const sobreSections: ContentSection[] = [
     title: 'De onde nasce este Caderno Digital',
     blocks: [
       {
-        type: 'callout',
-        tone: 'highlight',
-        title: 'Um Caderno pensado para acompanhar a prática',
-        text: 'O Caderno Digital de Práticas Docentes na Educação Infantil em Contexto Hospitalar foi criado para acompanhar docentes que vivem, em seu cotidiano, os desafios e as possibilidades do Atendimento Educacional Hospitalar.',
-      },
-      {
         type: 'paragraph',
         text: 'Este Caderno Digital de Práticas Docentes na Educação Infantil em Contexto Hospitalar é um Produto Educacional desenvolvido por Maria Tereza Gonçalves Lemos Dantas, no âmbito do Mestrado Profissional em Educação Especial do Programa de Pós-Graduação em Educação Especial da Universidade Federal do Rio Grande do Norte (PPGEEsp/UFRN), sob a orientação da Prof.ª Dr.ª Jacyene Melo de Oliveira Araújo.',
       },
-      {
-        type: 'paragraph',
-        text: 'Ao longo dos módulos, você encontrará textos, perguntas, referências e possibilidades para pensar a prática docente com crianças da Educação Infantil durante a hospitalização. Os conteúdos partem de situações que fazem parte desse trabalho: encontros que podem ser breves, interrupções inesperadas, mudanças nas condições da criança e a necessidade de adaptar o planejamento. Consideram também as muitas maneiras pelas quais uma criança pode participar, brincar e se expressar no hospital.',
-      },
-      {
-        type: 'paragraph',
-        text: 'Este material não pretende dizer à docente exatamente o que fazer. No hospital, cada criança e cada encontro trazem condições próprias. Uma proposta pode precisar mudar, ser interrompida ou tomar um caminho diferente do planejado. O Caderno oferece apoio para pensar essas escolhas com intencionalidade, sensibilidade e respeito ao que a criança vive naquele momento.',
-      },
+      {"type":"paragraph","text":"Os módulos reúnem fundamentos, perguntas e propostas para consulta a partir de situações vividas no atendimento."},
+      {"type":"paragraph","text":"Adapte as propostas aos interesses da criança e às condições do hospital."},
     ],
   },
   {
@@ -71,7 +59,7 @@ export const sobreSections: ContentSection[] = [
       },
       {
         type: 'paragraph',
-        text: 'Essa escuta é parte importante do trabalho. Um Caderno pensado para docentes precisa considerar a leitura de quem conhece, na prática, as possibilidades e os desafios do atendimento.',
+        text: 'As avaliações das participantes orientaram a revisão do material.',
       },
     ],
   },
@@ -80,22 +68,12 @@ export const sobreSections: ContentSection[] = [
     eyebrow: 'Finalidade',
     title: 'Objetivo, público e usos possíveis',
     blocks: [
-      {
-        type: 'paragraph',
-        text: 'O Caderno Digital foi criado para apoiar o estudo, a consulta e a reflexão sobre a Educação Infantil no Atendimento Educacional Hospitalar.',
-      },
-      {
-        type: 'paragraph',
-        text: 'Seu objetivo é ajudar docentes a relacionar fundamentos, currículo, planejamento, brincadeiras, interações, diferentes linguagens, recursos, legislação e formação continuada com aquilo que acontece no atendimento. Isso inclui, por exemplo, acolher uma criança que não deseja participar naquele momento, adaptar uma proposta depois de uma interrupção, escolher materiais possíveis para aquele encontro ou registrar uma experiência sem rotular a criança.',
-      },
+      {"type":"paragraph","text":"O objetivo é aproximar fundamentos e decisões do cotidiano: acolher uma recusa, retomar uma proposta interrompida, escolher materiais ou registrar uma experiência sem rotular a criança."},
       {
         type: 'paragraph',
         text: 'O público principal é formado por docentes da Educação Infantil que atuam no Atendimento Educacional Hospitalar, especialmente com crianças de quatro anos a cinco anos e onze meses. O conteúdo também pode contribuir com coordenadores e outros profissionais da educação interessados no tema.',
       },
-      {
-        type: 'paragraph',
-        text: 'O Caderno Digital pode acompanhar diferentes momentos do trabalho. Você pode consultá-lo para:',
-      },
+      {"type":"paragraph","text":"Você pode consultar os módulos para:"},
       {
         type: 'list',
         items: [
@@ -110,18 +88,9 @@ export const sobreSections: ContentSection[] = [
       },
       {
         type: 'paragraph',
-        text: 'Nem sempre haverá uma resposta pronta para a situação vivida. Muitas vezes, uma pergunta ajuda a observar melhor o encontro, escutar a criança e decidir o que faz sentido naquele momento.',
+        text: 'As perguntas ajudam a examinar cada situação antes de decidir como agir.',
       },
-      {
-        type: 'callout',
-        tone: 'guidance',
-        title: 'Um material de apoio, não de avaliação',
-        text: 'O Caderno Digital não foi criado para avaliar a docente, comparar práticas ou definir um único modo de trabalhar. Ele não é curso certificado, habilitação profissional ou protocolo obrigatório. Também não substitui as orientações do sistema de ensino e da instituição em que a docente atua.',
-      },
-      {
-        type: 'paragraph',
-        text: 'O Caderno não oferece orientação clínica. Questões relacionadas ao tratamento e às condições de saúde da criança devem ser acompanhadas pelos profissionais responsáveis.',
-      },
+      {"type":"paragraph","text":"Use as propostas como apoio ao estudo e à prática. Elas não são instrumentos de avaliação docente, curso certificado, habilitação profissional ou protocolo obrigatório."},
     ],
   },
   {
@@ -129,35 +98,8 @@ export const sobreSections: ContentSection[] = [
     eyebrow: 'Compromissos',
     title: 'Princípios que orientam o Caderno Digital',
     blocks: [
-      {
-        type: 'paragraph',
-        text: 'Alguns princípios acompanham todos os módulos e mantêm a criança e a experiência educativa no centro da reflexão.',
-      },
-      {
-        type: 'paragraph',
-        text: 'Eles não são regras nem respostas prontas. São pontos de apoio para pensar uma prática que pode mudar de uma criança para outra e até durante o mesmo encontro.',
-      },
-      {
-        type: 'list',
-        items: [
-          'A criança é sujeito de direitos. Mesmo durante a hospitalização, ela continua sendo criança. Pode brincar, imaginar, aprender, participar, fazer escolhas e construir relações.',
-          'Interações e brincadeiras são centrais na Educação Infantil. No hospital, elas podem acontecer de diferentes maneiras, tempos e intensidades, conforme as condições da criança e do encontro.',
-          'Escutar também é uma ação pedagógica. A criança se comunica pela fala, pelo corpo, pelo silêncio, pelo olhar, pela aproximação, pelo afastamento e por muitas outras formas de expressão.',
-          'Participar não significa cumprir tudo o que foi proposto. A criança pode escolher, sugerir mudanças, observar, fazer uma pausa ou decidir não continuar. A recusa também é uma forma de comunicação e precisa ser respeitada.',
-          'Planejar exige intencionalidade e flexibilidade. A docente prepara possibilidades, observa como a criança responde e modifica o percurso quando o encontro pede outro caminho.',
-          'Educar e cuidar fazem parte da mesma experiência. A atenção ao conforto, ao tempo, ao espaço e às condições de participação está presente nas escolhas pedagógicas.',
-          'As propostas precisam ampliar as possibilidades de participação e expressão. Para isso, a docente pode mudar os materiais, o espaço, o tempo ou a forma de apresentar uma experiência, sem reduzir a criança ao diagnóstico.',
-          'A prática pedagógica tem uma especificidade própria. A docente observa e acompanha a experiência educativa, mas não realiza avaliações ou orientações clínicas.',
-          'Cada encontro é singular. A mesma proposta pode ganhar sentidos diferentes com cada criança. Não se espera que todas participem da mesma maneira ou cheguem aos mesmos resultados.',
-          'A prática docente envolve autoria e reflexão. As referências apoiam o trabalho, mas não substituem a observação, o conhecimento profissional e as decisões construídas pela docente.',
-        ],
-      },
-      {
-        type: 'callout',
-        tone: 'highlight',
-        title: 'Para pensar, experimentar e retomar',
-        text: 'O Caderno Digital reúne fundamentos e perguntas para acompanhar a reflexão da docente sobre sua prática. A partir deles, ela pode reconhecer saberes já construídos e pensar outros caminhos para os encontros com as crianças, de acordo com cada contexto.',
-      },
+      {"type":"paragraph","text":"Direitos da criança, interações e brincadeira, escuta e participação orientam as propostas. Esses princípios se articulam ao planejamento, aos recursos e à reflexão profissional nos módulos seguintes."},
+      {"type":"list","items":["Reconhecer a criança como sujeito de direitos, com histórias, interesses e modos próprios de participar.","Sustentar interações e brincadeiras e a indissociabilidade entre educar e cuidar.","Escutar escolhas, iniciativas, silêncios e recusas, permitindo que influenciem o encontro.","Planejar com intenção e flexibilidade, ampliando o acesso às experiências e às diferentes linguagens.","Valorizar a autoria docente, a reflexão e o diálogo profissional, respeitando as responsabilidades de cada área."]},
     ],
   },
   {
@@ -165,18 +107,7 @@ export const sobreSections: ContentSection[] = [
     eyebrow: 'Navegação',
     title: 'Como navegar e construir seu percurso',
     blocks: [
-      {
-        type: 'paragraph',
-        text: 'Os módulos seguem uma sequência numérica, mas você não precisa lê-los nessa ordem.',
-      },
-      {
-        type: 'paragraph',
-        text: 'Você pode começar pelo tema que mais se aproxima de uma pergunta, de um planejamento ou de uma situação vivida no atendimento. Depois, pode seguir para outro módulo, voltar a uma parte ou retomar a leitura quando surgir uma nova necessidade.',
-      },
-      {
-        type: 'paragraph',
-        text: 'Algumas formas de navegar pelo Caderno Digital:',
-      },
+      {"type":"paragraph","text":"Comece pelo tema que se aproxima de sua pergunta. Os módulos podem ser lidos em qualquer ordem e retomados quando você precisar."},
       {
         type: 'list',
         items: [
@@ -188,16 +119,7 @@ export const sobreSections: ContentSection[] = [
           'Quando houver um link verificado, consulte documentos oficiais e referências em seus endereços de origem.',
         ],
       },
-      {
-        type: 'paragraph',
-        text: 'Você pode abrir o módulo de planejamento ao preparar um atendimento, consultar o módulo de legislação quando precisar compreender um documento ou buscar o módulo Brincar e mediações lúdicas para pensar em outras formas de participação da criança.',
-      },
-      {
-        type: 'callout',
-        tone: 'guidance',
-        title: 'Um percurso construído por você',
-        text: 'Não é necessário concluir um módulo para acessar outro. Também não há controle de frequência, nota ou certificado. Seu percurso pode acompanhar as perguntas que surgem na prática. A ideia é que você possa voltar ao Caderno quando precisar estudar um tema, rever uma questão ou pensar em novas possibilidades para um encontro.',
-      },
+      {"type":"callout","tone":"guidance","title":"Um percurso construído por você","text":"Não há controle de frequência, nota ou certificado. Seu percurso acompanha as necessidades de estudo e as perguntas da prática."},
     ],
   },
   {
@@ -205,10 +127,7 @@ export const sobreSections: ContentSection[] = [
     eyebrow: 'Mapa do conteúdo',
     title: 'O que você encontrará em cada módulo',
     blocks: [
-      {
-        type: 'paragraph',
-        text: 'Depois desta apresentação, oito módulos tratam de temas que se encontram no cotidiano das docentes da Educação Infantil no Atendimento Educacional Hospitalar.',
-      },
+      {"type":"paragraph","text":"Após esta apresentação, os oito módulos seguintes oferecem caminhos de consulta:"},
       {
         type: 'list',
         items: [
@@ -222,16 +141,7 @@ export const sobreSections: ContentSection[] = [
           'Módulo 9 – Experiências docentes: princípios para documentação e compartilhamento: discute os cuidados necessários para registrar e, futuramente, compartilhar experiências docentes de maneira ética, acessível e responsável.',
         ],
       },
-      {
-        type: 'paragraph',
-        text: 'Os temas estão separados para facilitar a consulta, mas aparecem juntos no atendimento. Ao planejar um encontro, por exemplo, a docente também escuta a criança, acolhe suas escolhas, pensa nas brincadeiras e nos materiais possíveis e observa o que merece ser registrado.',
-      },
-      {
-        type: 'callout',
-        tone: 'note',
-        title: 'Sobre o Módulo 9',
-        text: 'O Módulo 9 apresenta princípios e cuidados para uma possível comunicação pública de experiências docentes no futuro. Neste momento, o Caderno Digital não recebe, seleciona nem publica relatos e não possui canal de submissão.',
-      },
+      {"type":"callout","tone":"note","title":"Sobre o Módulo 9","text":"O módulo sobre experiências docentes orienta a documentação e o compartilhamento responsável. Não há canal de submissão ou publicação de relatos."},
     ],
   },
   {
@@ -239,24 +149,9 @@ export const sobreSections: ContentSection[] = [
     eyebrow: 'Transparência sobre o conteúdo',
     title: 'Limites do Caderno',
     blocks: [
-      {
-        type: 'paragraph',
-        text: 'Os conteúdos do Caderno Digital precisam ser relacionados às condições de cada criança, de cada encontro e do local onde o atendimento acontece. Eles apoiam a reflexão pedagógica, mas não substituem as orientações do sistema de ensino ou da instituição.',
-      },
-      {
-        type: 'paragraph',
-        text: 'Os documentos, estudos e livros citados aparecem como referências ou links externos. Nesta versão, o Caderno Digital não disponibiliza arquivos para download.',
-      },
-      {
-        type: 'paragraph',
-        text: 'Questões clínicas devem ser acompanhadas pelos profissionais responsáveis. O Caderno não apresenta protocolos de saúde, higiene ou segurança.',
-      },
-      {
-        type: 'callout',
-        tone: 'note',
-        title: 'Um Caderno aberto a novas perguntas',
-        text: 'O Caderno não pretende encerrar as discussões sobre a Educação Infantil no hospital. Ele reúne conhecimentos, perguntas e possibilidades que podem apoiar a docente e continuar sendo ampliados a partir do estudo e da prática.',
-      },
+      {"type":"paragraph","text":"As propostas precisam ser relacionadas às condições de cada atendimento e às orientações do sistema de ensino e da instituição."},
+      {"type":"paragraph","text":"Referências e recursos têm suas formas de acesso indicadas junto aos links. Há materiais para download, incluindo o e-book Quintais Brincantes, além de páginas externas de consulta ou aquisição."},
+      {"type":"paragraph","text":"As orientações são pedagógicas. Decisões clínicas e protocolos de saúde, higiene e segurança cabem aos profissionais e às instituições responsáveis."},
     ],
   },
   {
@@ -276,10 +171,7 @@ export const sobreSections: ContentSection[] = [
           'Validação: realizada pelas professoras participantes da pesquisa.',
         ],
       },
-      {
-        type: 'paragraph',
-        text: 'O vínculo com o PPGEEsp/UFRN identifica o contexto acadêmico da pesquisa e do desenvolvimento deste Produto Educacional. Não atribui automaticamente à Universidade, ao Programa, à orientadora ou a outras instituições a responsabilidade por sua publicação, manutenção ou atualização.',
-      },
+      {"type":"paragraph","text":"O vínculo com o PPGEEsp/UFRN identifica a origem acadêmica do produto. Não atribui automaticamente à Universidade, ao Programa, à orientadora ou a outras instituições a responsabilidade por publicação, manutenção ou atualização."},
       {
         type: 'paragraph',
         text: 'A instituição responsável pela manutenção futura, a política de atualização, a licença e o canal de contato ainda serão definidos.',

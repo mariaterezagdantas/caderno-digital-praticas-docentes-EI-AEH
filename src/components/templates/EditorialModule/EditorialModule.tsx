@@ -4,6 +4,7 @@ import { ArrowDown, ArrowLeft, ArrowRight, List, ChevronDown, BookOpen, Lightbul
 import { Container } from '../../atoms'
 import { Breadcrumbs, ModulePagination } from '../../molecules'
 import { ContentRenderer } from '../../organisms'
+import { ReadingResourceCard } from '../../molecules/ReadingResourceCard/ReadingResourceCard'
 import type { ModulePageTemplateProps } from '../ModulePageTemplate/ModulePageTemplate'
 import type { ContentBlock, ContentSection } from '../../../types/content'
 import { ModuleIllustration, ModuleSymbol } from '../../organisms/ModuleIllustration/ModuleIllustration'
@@ -27,6 +28,9 @@ function renderEditorialBlock(block: ContentBlock, index: number, section: Conte
     return <div className={styles.reflection}><MessageCircle size={22} aria-hidden="true" /><ListElement>{block.items.map(item => <li key={item}>{item}</li>)}</ListElement></div>
   }
   if (block.type === 'resources') {
+    if (block.items.every(resource => resource.reading)) {
+      return block.items.map(resource => <ReadingResourceCard key={resource.id} resource={resource} />)
+    }
     return (
       <ul className={styles.references}>
         {block.items.map(resource => (

@@ -1,4 +1,5 @@
 import type { ContentSection } from '../../types/content'
+import { naturezaSection } from './natureza'
 
 export const estrategiasSections: ContentSection[] = [
   {
@@ -19,11 +20,8 @@ export const estrategiasSections: ContentSection[] = [
     eyebrow: 'Interpretação pedagógica',
     title: 'O que essa experiência me ensinou',
     blocks: [
-      { type: 'paragraph', text: 'Foi ali que compreendi que a escuta pedagógica alcança o que a criança comunica por palavras, gestos, movimentos, brincadeiras, silêncios, aproximações e recusas. Nenhuma dessas manifestações possui um sentido pronto; é no contexto do encontro que a docente procura compreendê-las.' },
-      { type: 'paragraph', text: 'Ao acolher o convite para brincar, reconstruí o planejamento com a criança. Sua iniciativa, suas referências culturais e sua maneira de participar passaram a orientar o percurso, sem retirar da experiência a intenção pedagógica.' },
-      { type: 'paragraph', text: 'A cena deslocou meu olhar dos recursos que eu havia preparado para a relação que se construía diante de mim. Os materiais disponíveis ganharam sentido porque entraram na brincadeira proposta pela criança.' },
-      { type: 'paragraph', text: 'Minha mediação consistiu em aceitar o papel oferecido e sustentar o enredo sem tomar sua direção. Ao acompanhar as decisões da criança, também aprendi sobre a docência que se faz no encontro.' },
-      { type: 'callout', tone: 'highlight', title: 'A experiência possibilita', text: 'Na brincadeira, a iniciativa da criança transformou o encontro e abriu espaço para imaginar, narrar, negociar regras, fazer escolhas e resolver os problemas criados no próprio enredo.' },
+      {"type":"paragraph","text":"Ao aceitar o convite, deixei que as referências da criança orientassem o encontro. Os materiais que estavam ali ganharam sentido no enredo criado por ela."},
+      {"type":"paragraph","text":"Minha mediação foi assumir o papel oferecido e sustentar a brincadeira sem tomar sua direção. Essa experiência mudou meu olhar para o que a criança já propunha antes da atividade planejada."},
     ],
   },
   {
@@ -31,11 +29,8 @@ export const estrategiasSections: ContentSection[] = [
     eyebrow: 'Brincar e aprender',
     title: 'Quando a brincadeira conduz a aprendizagem',
     blocks: [
-      { type: 'paragraph', text: 'A experiência de laçar o boi mostra aprendizagens que nasceram no curso da brincadeira. A criança criou um cenário a partir de suas referências e deu aos materiais disponíveis funções que faziam sentido naquele enredo.' },
       { type: 'paragraph', text: 'A linguagem organizou a ação compartilhada. Ao explicar as regras, indicar o lugar da docente e comunicar o que deveria acontecer, a criança tornou suas ideias compreensíveis e negociou a participação da outra pessoa.' },
       { type: 'paragraph', text: 'Os problemas surgiram dentro da própria história e mudaram com ela. Decidir como agir, rever uma tentativa e encontrar uma saída faziam parte do brincar, sem separar a aprendizagem em tarefas ou respostas a serem verificadas.' },
-      { type: 'paragraph', text: 'Para sustentar esse percurso, a docente precisou acompanhar as regras e responder às mudanças sem antecipar o desfecho. Sua presença favoreceu a continuidade da brincadeira e preservou a autoria da criança.' },
-      { type: 'callout', tone: 'guidance', title: 'Mediação pedagógica', text: 'Mediar, nessa experiência, foi participar do cenário criado pela criança, compreender suas orientações e tomar decisões que mantivessem aberto o enredo que ela conduzia.' },
     ],
   },
   {
@@ -45,8 +40,8 @@ export const estrategiasSections: ContentSection[] = [
     blocks: [
       { type: 'paragraph', text: 'As narrativas analisadas na pesquisa que deu origem a este Caderno situam a ludicidade no centro das práticas pedagógicas desenvolvidas com crianças pequenas durante a hospitalização. As professoras participantes associaram o brincar às possibilidades de aprender, comunicar-se, interagir, criar e continuar vivendo experiências próprias da infância.' },
       { type: 'paragraph', text: 'As professoras também destacaram a adaptação e a produção de recursos para responder às necessidades encontradas no atendimento. Esses movimentos mostram que organizar uma experiência lúdica envolve observar condições concretas, selecionar possibilidades, modificar percursos e construir respostas pedagógicas situadas.' },
-      { type: 'paragraph', text: 'Esses resultados não transformam toda brincadeira em demonstração obrigatória de aprendizagem. Eles ajudam a compreender que a ludicidade pode integrar a ação pedagógica sem perder a abertura, a autoria infantil e a possibilidade de a criança atribuir sentidos próprios ao que vive.' },
-      { type: 'paragraph', text: 'Ao observar como uma proposta se transforma e refletir sobre as decisões tomadas, a docente também produz conhecimentos sobre sua prática. A experiência cotidiana não substitui os fundamentos legais e curriculares, mas dialoga com eles e amplia a compreensão sobre as formas possíveis de sustentar a Educação Infantil no hospital.' },
+      { type: 'paragraph', text: 'Os resultados ajudam a pensar a mediação sem transformar cada brincadeira em prova de aprendizagem.' },
+      { type: 'paragraph', text: 'A reflexão sobre essas mudanças também integra a construção dos saberes docentes.' },
       { type: 'callout', tone: 'note', title: 'Uma leitura dos resultados', text: 'A pesquisa evidencia a presença da ludicidade, da adaptação e da criação de recursos nas práticas narradas pelas professoras. Neste módulo, esses elementos são retomados como pontos de reflexão, não como procedimentos iguais para todos os encontros.' },
     ],
   },
@@ -55,10 +50,8 @@ export const estrategiasSections: ContentSection[] = [
     eyebrow: 'Princípios orientadores',
     title: 'Princípios para brincar na Educação Infantil em contexto hospitalar',
     blocks: [
-      { type: 'paragraph', text: 'A hospitalização pode modificar a rotina, os espaços de convivência, a mobilidade e o tempo disponível para brincar. Um encontro pode acontecer integralmente no leito, durar poucos minutos, ser interrompido em função dos cuidados de saúde ou precisar ser adiado e, quando houver sentido, retomado.' },
-      { type: 'paragraph', text: 'Essas condições não eliminam o direito de brincar. Durante a hospitalização, a criança permanece criança e sujeito de direitos; o contexto modifica as condições do encontro, mas não define tudo o que ela é. Relações, imaginação, escolha, criação e participação continuam podendo compor sua experiência educativa.' },
-      { type: 'paragraph', text: 'Sustentar o brincar nesse contexto envolve reconhecer alguns princípios: a criança pode iniciar e transformar a experiência; a intencionalidade docente não precisa controlar o enredo; tempos, espaços, materiais e apoios podem ser reorganizados; e aceitar, pausar, observar, modificar ou recusar são manifestações que precisam produzir consequências nas decisões pedagógicas.' },
-      { type: 'paragraph', text: 'Considerar a recusa também faz parte de reconhecer a criança como participante das decisões sobre o encontro. A ausência de adesão não deve ser interpretada automaticamente como obstáculo a ser vencido. A disponibilidade docente pode significar respeitar essa decisão, oferecer outra forma de presença, aguardar uma iniciativa ou retomar o contato em outra ocasião.' },
+      {"type":"paragraph","text":"No leito, a mobilidade e os materiais disponíveis podem mudar o modo de brincar."},
+      {"type":"paragraph","text":"Observe a iniciativa da criança e permita que ela transforme o enredo. Se preferir observar ou recusar, acolha essa decisão sem insistir na adesão."},
       { type: 'callout', tone: 'note', title: 'Atenção ao contexto hospitalar', text: 'Espaços, circulação, materiais e compartilhamento precisam respeitar as orientações institucionais e as informações pertinentes recebidas pelos canais adequados. A docente organiza a experiência educativa sem realizar avaliação clínica nem atribuir ao brincar a promessa de efeitos terapêuticos.' },
     ],
   },
@@ -68,10 +61,7 @@ export const estrategiasSections: ContentSection[] = [
     title: 'Brincar é coisa séria',
     blocks: [
       { type: 'paragraph', text: 'Brincar integra o direito à liberdade assegurado pelo Estatuto da Criança e do Adolescente. Na Educação Infantil, as Diretrizes Curriculares Nacionais definem interações e brincadeira como eixos norteadores das práticas pedagógicas, e a Base Nacional Comum Curricular os retoma como eixos estruturantes das aprendizagens e do desenvolvimento.' },
-      { type: 'paragraph', text: 'Na brincadeira, a criança pode transformar objetos, experimentar papéis, criar regras, repetir ações, modificar enredos, comunicar ideias e estabelecer relações. Por isso, brincar constitui uma linguagem da infância e uma forma de participação na cultura, não um intervalo entre experiências consideradas mais importantes.' },
-      { type: 'paragraph', text: 'Reconhecer o brincar como direito modifica a organização do trabalho docente. Sua presença não pode ser reduzida a um prêmio oferecido depois de outra atividade, nem depende de produzir um resultado que o adulto possa medir ao final. O brincar também não se limita à presença de brinquedos: pode surgir de uma palavra, de um gesto, de uma história, de uma lembrança ou de um objeto cotidiano.' },
       { type: 'paragraph', text: 'A Lei nº 11.104/2005 determina a instalação de brinquedotecas nas unidades de saúde que ofereçam atendimento pediátrico em regime de internação. A brinquedoteca pode ampliar oportunidades de encontro e acesso a materiais, mas não concentra todas as possibilidades de brincar. A criança que não pode chegar a esse espaço continua precisando encontrar condições de participação onde estiver.' },
-      { type: 'paragraph', text: 'No âmbito deste Caderno, a importância do brincar é pedagógica, cultural e vinculada aos direitos da infância. Ele não deve ser apresentado como garantia de melhora clínica nem como técnica terapêutica. Questões de tratamento e condições de saúde permanecem sob responsabilidade dos profissionais e canais institucionais competentes.' },
       { type: 'callout', tone: 'highlight', title: 'Brincar não é recompensa', text: 'Quando o brincar é reservado apenas para depois da “atividade”, sua centralidade na Educação Infantil é reduzida. A própria brincadeira pode constituir uma experiência educativa, com imaginação, escolha, interação, expressão e produção de sentidos.' },
     ],
   },
@@ -80,12 +70,9 @@ export const estrategiasSections: ContentSection[] = [
     eyebrow: 'Intenção e abertura',
     title: 'Brincar e aprender acontecem ao mesmo tempo',
     blocks: [
-      { type: 'paragraph', text: 'Dentro da brincadeira, a intenção pedagógica orienta a docente a reconhecer o que ganha força no percurso. Uma pergunta, uma escolha ou uma mudança no enredo pode abrir espaço para imaginar, narrar, investigar e criar com a criança.' },
-      { type: 'paragraph', text: 'As aprendizagens aparecem nas relações, nas hipóteses experimentadas e nas decisões tomadas durante o brincar. Ao observar esses movimentos, a docente encontra elementos para o planejamento e o registro sem interromper a experiência para verificar isoladamente um conteúdo.' },
+      {"type":"paragraph","text":"As aprendizagens aparecem nas relações, nas hipóteses e nas decisões do brincar. Reconhecê-las não exige interromper a cena para verificar conteúdos isolados."},
       { type: 'paragraph', text: 'Em um mercadinho, a contagem pode surgir da necessidade de organizar preços, pedidos ou objetos. Se o faz de conta é interrompido repetidamente para cobrar números, cores ou letras, o enredo perde espaço para um resultado já definido pela docente. É nesse modo de conduzir, e não na presença de determinado conhecimento, que o brincar se torna apenas um meio para cumprir uma tarefa.' },
-      { type: 'paragraph', text: 'Os direitos de aprendizagem e desenvolvimento e os campos de experiências continuam orientando o planejamento e a leitura curricular. Eles ajudam a perceber dimensões que podem ser ampliadas, mas não funcionam como uma lista cuja presença integral precise ser demonstrada em cada brincadeira.' },
-      { type: 'paragraph', text: 'A docente amplia a experiência quando acompanha sua lógica e oferece um material, comentário ou pergunta que dialogue com o percurso da criança. Se a continuidade passa a depender de respostas e correções, a brincadeira se aproxima de um exercício. O modo como a intervenção acolhe a autoria e o enredo é o que distingue essas situações.' },
-      { type: 'callout', tone: 'highlight', title: 'Intenção não é controle', text: 'Os conhecimentos que aparecem na brincadeira podem orientar novas intervenções. Elas ampliam a experiência quando preservam as escolhas da criança e o movimento do enredo.' },
+      {"type":"paragraph","text":"Ofereça um comentário, material ou pergunta que dialogue com a brincadeira. Acompanhe se a intervenção amplia o enredo ou o transforma em uma sequência de respostas e correções."},
     ],
   },
   {
@@ -93,11 +80,8 @@ export const estrategiasSections: ContentSection[] = [
     eyebrow: 'Condições materiais',
     title: 'Os materiais também ensinam',
     blocks: [
-      { type: 'paragraph', text: 'Organizar condições para brincar faz parte da mediação. No hospital, isso exige trabalhar com os espaços efetivamente disponíveis e autorizados, sem tomar como referência uma sala ideal. O leito, uma superfície de apoio, o quarto, a brinquedoteca ou outra área autorizada oferecem possibilidades diferentes de movimento, interação, construção e faz de conta.' },
-      { type: 'paragraph', text: 'Objetos simples podem ampliar a participação quando são escolhidos e apresentados com uma intenção coerente. Seu valor pedagógico não decorre da sofisticação nem está garantido pela simples presença do material. A forma de selecionar, dispor, aproximar ou retirar recursos interfere no que a criança pode alcançar, escolher, explorar e transformar.' },
       { type: 'paragraph', text: 'Caixas, tecidos, bonecos, fantoches, livros, papéis, materiais de desenho e objetos cotidianos podem assumir diferentes funções. Uma caixa pode ser casa, barco, curral ou cenário; um tecido pode demarcar um espaço, tornar-se capa ou integrar uma construção; um desenho pode transformar-se em mapa; personagens podem ser manipulados pela criança ou movimentados pela docente conforme suas orientações.' },
-      { type: 'paragraph', text: 'Materiais com usos menos definidos podem abrir possibilidades de atribuição de sentidos. A docente não precisa anunciar antecipadamente o que cada objeto deverá representar. A quantidade de recursos também não garante maior exploração: dependendo do encontro, um conjunto reduzido e bem organizado pode favorecer escolhas mais acessíveis.' },
-      { type: 'paragraph', text: 'Selecionar materiais envolve considerar a intenção pedagógica, o interesse da criança, o espaço disponível, as formas possíveis de alcance e manipulação, a necessidade de apoio e as alternativas autorizadas. Quando um recurso não puder ser usado, a proposta pode ser revista ou outro percurso pode ser construído.' },
+      {"type":"paragraph","text":"Deixe espaço para os significados inventados pela criança. Um conjunto reduzido pode favorecer escolhas; a quantidade, por si só, não garante exploração. Os critérios de seleção e organização são aprofundados em Recursos Pedagógicos."},
       { type: 'callout', tone: 'guidance', title: 'Para pensar', text: 'Escolha um objeto simples e imagine diferentes usos sem fixar um resultado. O material deixa espaço para a criança atribuir sentidos? Pode ser alcançado e utilizado nas condições daquele encontro? Há uma alternativa caso ele não esteja disponível ou autorizado?' },
     ],
   },
@@ -106,12 +90,9 @@ export const estrategiasSections: ContentSection[] = [
     eyebrow: 'Acesso e participação',
     title: 'O brincar também se adapta',
     blocks: [
-      { type: 'paragraph', text: 'Adaptar uma brincadeira não significa empobrecê-la, retirar automaticamente todo desafio ou substituí-la sempre por uma tarefa mais simples. A adaptação procura modificar condições de acesso, tempo, material, espaço, linguagem ou apoio para ampliar possibilidades de participação, preservando imaginação, escolha, interação e autoria.' },
-      { type: 'paragraph', text: 'Envolver-se em uma experiência não significa realizar a mesma ação da mesma maneira. A criança pode comunicar escolhas pela fala, por gestos, pela manipulação de materiais ou por outros sinais reconhecíveis naquele encontro. Pode acompanhar uma narrativa sem falar, indicar o rumo de uma construção, escolher personagens, orientar ações que não executa diretamente ou preferir observar.' },
-      { type: 'paragraph', text: 'Considerando o que observa pedagogicamente e as informações pertinentes recebidas pelos canais institucionais, a docente pode reorganizar materiais, reduzir deslocamentos, oferecer elementos que possam ser alcançados ou dividir uma ação. O apoio busca favorecer a participação, não substituir todas as decisões da criança. Pode aumentar, diminuir ou ser recusado ao longo do encontro.' },
-      { type: 'paragraph', text: 'Adaptar também pode significar reduzir a quantidade de elementos apresentados simultaneamente, modificar a duração, permitir uma pausa ou aceitar que a proposta seja transformada. Se determinada ação não puder integrar a experiência naquele momento, pode ser possível preservar seu núcleo imaginativo por meio de personagens, escolhas, narração, sons ou ações compartilhadas. Em outras situações, será mais coerente abandonar a ideia e acolher outro interesse.' },
+      {"type":"paragraph","text":"Conforme as condições do atendimento, aproxime os materiais, reduza deslocamentos ou divida uma ação. O apoio pode aumentar, diminuir ou ser recusado; não precisa substituir as decisões da criança."},
+      {"type":"paragraph","text":"Uma ação pode ganhar outra forma por meio de personagens, narração, sons ou movimentos compartilhados. Se a proposta perder o sentido, acolha outro interesse."},
       { type: 'paragraph', text: 'Diante dos bonecos, a criança pode manipulá-los, indicar o que a docente deve mover, preferir observar ou pedir que tudo seja guardado. São formas distintas de envolvimento, transformação ou recusa, e a proposta não precisa seguir o mesmo percurso em todos os encontros.' },
-      { type: 'callout', tone: 'highlight', title: 'Adaptar sem esvaziar', text: 'Uma adaptação pode ampliar possibilidades de participação e autoria sem garantir ou exigir adesão. Em alguns encontros, isso significa oferecer outro acesso ou apoio; em outros, reconhecer que pausar, transformar, interromper ou recusar também são decisões legítimas da criança.' },
     ],
   },
   {
@@ -119,20 +100,19 @@ export const estrategiasSections: ContentSection[] = [
     eyebrow: 'Saberes da experiência',
     title: 'Reconhecer o brincar também é um saber da docência',
     blocks: [
-      { type: 'paragraph', text: 'Diante de uma brincadeira, a docente pode começar reconhecendo o que já está acontecendo: que enredo se anuncia, que usos os objetos recebem, que regras estão sendo inventadas e que lugar a criança lhe oferece. Observar antes de entrar ajuda a evitar que a presença adulta desloque a lógica da brincadeira ou antecipe seu desfecho.' },
-      { type: 'paragraph', text: 'Uma brincadeira iniciada pela criança pode contar com a participação da docente, assim como uma proposta apresentada pela docente pode ser transformada por iniciativas infantis. O que importa é observar como as decisões circulam e se a criança conserva possibilidades reais de criar, escolher, modificar e recusar.' },
+      {"type":"paragraph","text":"Antes de entrar na brincadeira, observe o enredo, as regras inventadas e o lugar que a criança lhe oferece."},
       { type: 'paragraph', text: 'Quando convidada a participar, a docente não recebe automaticamente a direção do enredo. Pode aceitar o papel atribuído, pedir licença para entrar e permitir que suas sugestões sejam incorporadas, modificadas ou rejeitadas. Uma pergunta não amplia necessariamente a experiência: comentários, gestos, respostas breves ou a continuidade atenta da presença podem sustentar melhor a cena.' },
-      { type: 'paragraph', text: 'Reconhecer o brincar envolve interpretar pedagogicamente o que a criança constrói e também examinar a própria atuação. A docente pode perguntar como sua presença interferiu no percurso, que condições favoreceram a autoria, quando o apoio foi necessário e se alguma intervenção ampliou ou estreitou as possibilidades da experiência.' },
-      { type: 'paragraph', text: 'Um registro breve e contextualizado pode preservar falas, escolhas, transformações dos materiais, regras inventadas e mudanças de percurso. Ao retomar esses elementos, a docente produz conhecimentos que podem orientar o planejamento de outros encontros, sem converter a brincadeira em uma lista de desempenhos.' },
+      {"type":"paragraph","text":"Registre o que ajuda a compreender a brincadeira: regras, usos dos materiais, escolhas e mudanças de percurso. Considere também como sua presença interferiu na autoria infantil."},
       { type: 'callout', tone: 'guidance', title: 'A experiência pode continuar', text: 'Uma brincadeira interrompida pode ser retomada quando ainda houver sentido para a criança e condições para isso. Materiais, registros ou uma pergunta deixada em aberto podem apoiar a continuidade, mas não criam obrigação de concluir o que foi iniciado. Em outro encontro, um novo percurso pode ser mais significativo.' },
     ],
   },
+  naturezaSection,
   {
     id: 'principios-escolher-mediar-transformar',
     eyebrow: 'Síntese e aprofundamento',
     title: 'Para refletir sobre sua prática',
     blocks: [
-      { type: 'paragraph', text: 'As questões a seguir não constituem um roteiro obrigatório. Podem ajudar a docente a retomar uma experiência, interpretar suas escolhas e construir novas possibilidades:' },
+      {"type":"paragraph","text":"Para retomar uma brincadeira e suas mediações:"},
       { type: 'list', items: [
         'De quem partiu a iniciativa da brincadeira e como essa iniciativa interferiu no percurso?',
         'Que sentidos a criança atribuiu aos materiais, aos objetos e ao espaço disponível?',
@@ -141,7 +121,6 @@ export const estrategiasSections: ContentSection[] = [
         'Os materiais e apoios ampliaram a participação e permitiram acolher pausas, mudanças ou recusas?',
         'O que merece ser registrado e o que ainda faz sentido continuar, transformar ou replanejar em outro encontro?',
       ] },
-      { type: 'callout', tone: 'guidance', title: 'Para retomar', text: 'Brincar é direito e linguagem da infância. A docente organiza condições, observa, escuta e revê suas escolhas para ampliar participação e autoria, reconhecendo que transformar, pausar, interromper ou recusar também pode orientar a mediação e o replanejamento.' },
       { type: 'paragraph', text: 'Referências e documentos para aprofundamento:' },
       { type: 'resources', items: [
         { id: 'eca-brincar', type: 'document', title: 'Lei nº 8.069/1990 — Estatuto da Criança e do Adolescente', description: 'O artigo 16 inclui brincar, praticar esportes e divertir-se entre os aspectos do direito à liberdade.', meta: 'BRASIL. Presidência da República. Texto compilado.', href: 'https://www.planalto.gov.br/ccivil_03/leis/l8069compilado.htm' },

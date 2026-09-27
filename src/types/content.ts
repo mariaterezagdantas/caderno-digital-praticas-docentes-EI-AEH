@@ -43,6 +43,13 @@ export interface ResourceItem {
   description: string
   meta?: string
   href?: string
+  reading?: {
+    cover?: { src: string; alt: string }
+    reference?: string
+    mediation?: string
+    relevance?: string
+    accessLabel: string
+  }
 }
 
 export interface ResourcesBlock {
